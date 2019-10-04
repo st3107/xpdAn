@@ -35,7 +35,7 @@ base_template = (
     "{start[sample_name]}_"
     # The writers handle the trailing ``_``
     "{human_timestamp}_"
-    "{sp_computed_exposure}s_"
+    "{start[sp_computed_exposure]}s_"
     "{__independent_vars__}"
     "{start[original_start_uid]:.6}_"
     "{event[seq_num]:04d}{ext}"
