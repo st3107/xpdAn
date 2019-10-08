@@ -1,2 +1,6 @@
-python
-setuptools
+pip:
+  default:
+    conda: setuptools
+python:
+  default:
+    conda: python==$TRAVIS_PYTHON_VERSION

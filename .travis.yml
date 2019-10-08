@@ -61,6 +61,8 @@ install:
   - git clean -xfd
 
 script:
+  - conda install --file requirements/run.txt
+  - conda install --file requirements/test.txt
   - set -e
   - coverage run run_tests.py
   - coverage report -m
