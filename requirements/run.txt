@@ -1,36 +1,18 @@
-bluesky:
-  default: {conda: bluesky}
-databroker:
-  default: {conda: databroker}
-matplotlib:
-  default: {conda: matplotlib}
-numpy:
-  default: {conda: numpy}
-ophyd:
-  default: {conda: ophyd}
-pyfai:
-  default: {conda: pyfai}
-pyxdameraulevenshtein:
-  default: {conda: pyxdameraulevenshtein}
-pyyaml:
-  default: {conda: pyyaml}
-scikit-beam:
-  default: {conda: scikit-beam}
-scipy:
-  default: {conda: scipy}
-shed:
-  default: {conda: shed}
-xpdconf:
-  default: {conda: xpdconf}
-xpdsim:
-  default: {conda: xpdsim}
-xpdtools:
-  default: {conda: xpdtools}
-xpdview:
-  default: {conda: xpdview}
-xray-vision:
-  default: {conda: xray-vision}
-rapidz:
-  default: {conda: rapidz}
-mayavi:
-  default: {conda: mayavi}
+bluesky
+databroker
+matplotlib
+numpy
+ophyd
+pyfai
+pyxdameraulevenshtein
+pyyaml
+scikit-beam
+scipy
+shed
+xpdconf
+xpdsim
+xpdtools
+xpdview
+xray-vision
+rapidz
+mayavi
