@@ -24,7 +24,7 @@ def test_main_callback(exp_db, fast_tmp_dir, start_uid3):
             print("{}{}".format(subindent, f))
     time.sleep(2)
     assert "Au" in os.listdir(fast_tmp_dir)
-    assert "Au_{:.6}.yml".format(start_uid3) in os.listdir(
+    assert "Au_s_{:.6}.yml".format(start_uid3) in os.listdir(
         os.path.join(fast_tmp_dir, "Au")
     )
     for f in ["dark_sub", "mask", "iq_q", "iq_tth", "pdf"]:
@@ -50,7 +50,7 @@ def test_main_callback2(exp_db, fast_tmp_dir, start_uid3):
             print("{}{}".format(subindent, f))
     time.sleep(2)
     assert "Au" in os.listdir(fast_tmp_dir)
-    assert "Au_{:.6}.yml".format(start_uid3) in os.listdir(
+    assert "Au_s_{:.6}.yml".format(start_uid3) in os.listdir(
         os.path.join(fast_tmp_dir, "Au")
     )
     for f in ["dark_sub", "mask", "iq_q", "iq_tth", "pdf"]:
