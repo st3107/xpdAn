@@ -55,6 +55,6 @@ def test_tiff_pipeline(
     for f in ["dark_sub"]:
         assert f in os.listdir(os.path.join(fast_tmp_dir, name))
         assert len(os.listdir(os.path.join(fast_tmp_dir, name, f))) == n_events
-    assert "{}_{:.6}.yaml".format(
+    assert "{}_s_{:.6}.yaml".format(
         name, exp_db[uid].start["uid"][:6]
     ) in os.listdir(os.path.join(fast_tmp_dir, name, "meta"))
